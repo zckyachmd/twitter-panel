@@ -53,7 +53,7 @@
 - [ ] Mass Report
 
 ## Source Code
-Download latest version [1.0](https://github.com/zckyachmd/twitter-panel/releases)
+Download [1.0](https://github.com/zckyachmd/twitter-panel/releases) latest version
 
 ## Bug Report <a name = "bugs"></a>
 If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new). Thank you
