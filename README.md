@@ -39,22 +39,22 @@
 
 ---
 
-### Built Using
+## Built Using
 - [Twitter API](https://github.com/abraham/twitteroauth/) - Library
 - [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
 - [PHP](https://www.php.net/) - Server Environment
 - [MySQL](https://www.mysql.com/) - Database
 
-### Feature <a name = "feature"></a>
+## Feature <a name = "feature"></a>
 - [X] Auto Follow
 - [X] Auto Retweet
 - [X] Auto Like
 - [ ] Boom Tweet
 - [ ] Mass Report
 
-### Bug Report <a name = "bugs"></a>
+## Bug Report <a name = "bugs"></a>
 
 If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new). Thank you
 
-### License <a name = "license"></a>
+## License <a name = "license"></a>
 The MIT License (MIT)
