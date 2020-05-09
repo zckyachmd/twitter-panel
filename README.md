@@ -1,40 +1,38 @@
 <p align="center">
-  <a href="https://simindi.zacky.id">
-    <img src="https://raw.githubusercontent.com/zckyachmd/simindi/master/assets/img/simindi.png" width="256px" height="256px" alt="SIMINDI Logo">
-  </a>
+  <img src="https://raw.githubusercontent.com/zckyachmd/twitter-panel/master/assets/img/twitter-logo-white.png" width="256px" height="256px" alt="Twitter Logo">
 </p>
 
-<h3 align="center">Si-Mindi! | <i>Sistem Peminjaman DVD Film</i></h3>
+<h3 align="center">Twitter SMM | <i>Simple Twitter Panel</i></h3>
 
 <p align="center">
   <!-- Contributions -->
-  <a href="https://github.com/zckyachmd/simindi">
+  <a href="https://github.com/zckyachmd/twitter-panel">
     <img src="https://img.shields.io/badge/contributions-welcome-orange.svg"
       alt="Contributions welcome" />
   </a>
  <!-- Last Commit -->
-  <a href="https://github.com/zckyachmd/simindi">
-    <img src="https://img.shields.io/github/last-commit/zckyachmd/simindi"
+  <a href="https://github.com/zckyachmd/twitter-panel">
+    <img src="https://img.shields.io/github/last-commit/zckyachmd/twitter-panel"
       alt="Last Commit" />
   </a>
  <!-- issues -->
-  <a href="https://github.com/zckyachmd/simindi/issues">
-    <img src="https://img.shields.io/github/issues/zckyachmd/simindi.svg"
+  <a href="https://github.com/zckyachmd/twitter-panel/issues">
+    <img src="https://img.shields.io/github/issues/zckyachmd/twitter-panel.svg"
       alt="Issues" />
   </a>
   <!-- Forks Status -->
-  <a href="https://github.com/zckyachmd/simindi/network/members">
-    <img src="https://img.shields.io/github/forks/zckyachmd/simindi.svg"
+  <a href="https://github.com/zckyachmd/twitter-panel/network/members">
+    <img src="https://img.shields.io/github/forks/zckyachmd/twitter-panel.svg"
       alt="Forks Status" />
   </a>
  <!-- Size -->
-  <a href="https://github.com/zckyachmd/simindi">
-    <img src="https://img.shields.io/github/repo-size/zckyachmd/simindi"
+  <a href="https://github.com/zckyachmd/twitter-panel">
+    <img src="https://img.shields.io/github/repo-size/zckyachmd/twitter-panel"
       alt="Size" />
   </a>
  <!-- License -->
-  <a href="https://github.com/zckyachmd/simindi/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/zckyachmd/simindi.svg"
+  <a href="https://github.com/zckyachmd/twitter-panel/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/zckyachmd/twitter-panel.svg"
       alt="License MIT" />
   </a>
 </p>
@@ -47,44 +45,34 @@
 
 ## Table of Contents
 
-- [About](#about)
 - [Feature](#feature)
 - [Change Log](https://github.com/zckyachmd/simindi/blob/master/CHANGELOG.md)
 - [Bug Report](#bugs)
 - [Contributors](https://github.com/zckyachmd/simindi/graphs/contributors)
 - [License](#license)
 
-## About <a name = "about"></a>
-Proyek ini bertujuan untuk memenuhi tugas matakuliah Pemrograman Berbasis Website dan Basis Data.
-<br/>
-Bagaskara Achmad Zaky (7708180096) | Prodi Teknologi Rekayasa Multimedia Fakultas Ilmu Terapan - Telkom University
-
 ### Getting Started
 Didasari dari kasus administrasi sebuah toko DVD Film yang masih konvensional yaitu dengan mencatat di sebuah buku. Maka dari itu kami mencoba untuk memodernisasikan proses administasi tersebut agar lebih teratur, jelas dan terperinci.
 
 ### Built Using
-- [SB Admin 2](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/) - CSS Framework
+- [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
 - [PHP](https://www.php.net/) - Server Environment
 - [MySQL](https://www.mysql.com/) - Database
 
 ## Feature <a name = "feature"></a>
-- [X] Sistem Multi Login [Admin & Staff]
-- [X] Pendaftaran, Pembaruan dan Penghapusan Staff & Member*
-- [X] Pencatatan, Pembaruan dan Penghapusan DVD Film dari Database
-- [X] Pengecekan Stock DVD Film secara otomatis
-- [X] Fitur Unggah foto Profil
-- [X] Fitur untuk melihat Log Activiy & Log Login*
-- [X] Membuat Peminjaman [BETA]
-- [ ] Pencetakan invoice Peminjaman
-- [ ] Log Activity untuk Staff
+- [X] Auto Follow
+- [X] Auto Retweet
+- [X] Auto Like
+- [ ] Boom Tweet
+- [ ] Mass Report
 
 *Fitur yang hanya bisa digunakan oleh Admin
 
 ## Bug Report <a name = "bugs"></a>
 
-If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/simindi/issues/new/choose). Thank you
+If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new). Thank you
 
 ## License <a name = "license"></a>
 The MIT License (MIT)
 
-Copyright © 2019 [@zckyachmd](https://www.zacky.id)
+Copyright © 2020 [Zacky Achmad](https://www.zacky.id)
