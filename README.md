@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zckyachmd/twitter-panel/master/assets/img/twitter-logo-white.png" width="256px" height="256px" alt="Twitter Logo">
+  <img src="https://raw.githubusercontent.com/zckyachmd/twitter-panel/master/assets/img/twitter-logo.png" width="256px" height="256px" alt="Twitter Logo">
 </p>
 
-<h3 align="center">Twitter SMM | <i>Simple Twitter Panel</i></h3>
+<h3 align="center">Twitter Panel</h3>
 
 <p align="center">
   <!-- Contributions -->
@@ -40,21 +40,18 @@
 ---
 
 <p align="center">
-  Si-MINDI! | Sistem Peminjaman DVD Film. Website yang ditujukan untuk membantu dalam pencatatan administrasi peminjaman Film disebuah toko DVD.
+  Twitter SMM | Simple Twitter Panel 2020 with New Library
 </p>
 
 ## Table of Contents
 
 - [Feature](#feature)
-- [Change Log](https://github.com/zckyachmd/simindi/blob/master/CHANGELOG.md)
 - [Bug Report](#bugs)
-- [Contributors](https://github.com/zckyachmd/simindi/graphs/contributors)
+- [Contributors](https://github.com/zckyachmd/twitter-panel/graphs/contributors/)
 - [License](#license)
 
-### Getting Started
-Didasari dari kasus administrasi sebuah toko DVD Film yang masih konvensional yaitu dengan mencatat di sebuah buku. Maka dari itu kami mencoba untuk memodernisasikan proses administasi tersebut agar lebih teratur, jelas dan terperinci.
-
 ### Built Using
+- [Twitter API](https://github.com/abraham/twitteroauth/) - Library
 - [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
 - [PHP](https://www.php.net/) - Server Environment
 - [MySQL](https://www.mysql.com/) - Database
