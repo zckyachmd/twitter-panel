@@ -41,7 +41,7 @@
 
 ## Built Using
 - [PHP](https://www.php.net/) - Server Environment
-- [Twitter API](https://github.com/abraham/twitteroauth/) - Library
+- [twitteroauth](https://github.com/abraham/twitteroauth/) - Twitter API
 - [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
 
 ## Feature <a name = "feature"></a>
@@ -50,6 +50,9 @@
 - [X] Auto Like
 - [ ] Boom Tweet
 - [ ] Mass Report
+
+## Source Code
+- Download latest version [1.0](https://github.com/zckyachmd/twitter-panel/releases)
 
 ## Bug Report <a name = "bugs"></a>
 
