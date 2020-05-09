@@ -45,9 +45,6 @@
 - [TwitterOAuth](https://twitteroauth.com/) - Twitter API
 - [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
 
-### Source Code
-Download latest version [1.0](https://github.com/zckyachmd/twitter-panel/releases)
-
 ## Feature <a name = "feature"></a>
 - [X] Auto Follow
 - [X] Auto Retweet
@@ -55,8 +52,10 @@ Download latest version [1.0](https://github.com/zckyachmd/twitter-panel/release
 - [ ] Boom Tweet
 - [ ] Mass Report
 
-## Bug Report <a name = "bugs"></a>
+## Source Code
+Download latest version [1.0](https://github.com/zckyachmd/twitter-panel/releases)
 
+## Bug Report <a name = "bugs"></a>
 If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new). Thank you
 
 ## License <a name = "license"></a>
