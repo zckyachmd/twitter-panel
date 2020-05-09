@@ -40,10 +40,9 @@
 ---
 
 ## Built Using
+- [PHP](https://www.php.net/) - Server Environment
 - [Twitter API](https://github.com/abraham/twitteroauth/) - Library
 - [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
-- [PHP](https://www.php.net/) - Server Environment
-- [MySQL](https://www.mysql.com/) - Database
 
 ## Feature <a name = "feature"></a>
 - [X] Auto Follow
