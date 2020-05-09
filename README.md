@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/zckyachmd/twitter-panel/master/assets/img/twitter-logo.png" width="256px" height="256px" alt="Twitter Logo">
 </p>
 
-<h3 align="center">Twitter Panel</h3>
+<h3 align="center">Twitter SMM | <i>Simple Twitter Panel</i></h3>
 
 <p align="center">
   <!-- Contributions -->
@@ -39,10 +39,6 @@
 
 ---
 
-<p align="center">
-  Twitter SMM | Simple Twitter Panel 2020 with New Library
-</p>
-
 ## Table of Contents
 
 - [Feature](#feature)
@@ -63,13 +59,9 @@
 - [ ] Boom Tweet
 - [ ] Mass Report
 
-*Fitur yang hanya bisa digunakan oleh Admin
-
 ## Bug Report <a name = "bugs"></a>
 
 If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new). Thank you
 
 ## License <a name = "license"></a>
 The MIT License (MIT)
-
-Copyright © 2020 [Zacky Achmad](https://www.zacky.id)
