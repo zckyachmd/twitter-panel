@@ -1,59 +1,64 @@
 <?php
-require "vendor/autoload.php";
+require_once 'vendor/autoload.php';
 
 // Memuat Library Api Twitter
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 // Connecting to database
-$db_host = "localhost";  // Database Server
-$db_user = "root";       // Database Username
-$db_pass = "";           // Database Password
-$db_name = "bot";        // Database Name
+$db_host  = "localhost";             // Database Server
+$db_user  = "root";                  // Database Username
+$db_pass  = "";                      // Database Password
+$db_name  = "bot";                   // Database Name
+$db_tabel = "twitter_access_tokens"; // Database Tabel
 $connect_db = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+if (!$connect_db) {
+  exit('Failed to connect to database!');
+}
 
 // Connecting to Apps Twitter
-define("CONSUMER_KEY", "#####################################################"); // Consumer Key Apps Twitter
-define("CONSUMER_SECRET", "##################################################"); // Counsumer Secret Apps Twitter
+define('CONSUMER_KEY', '#####################################################'); // Consumer Key Apps Twitter
+define('CONSUMER_SECRET', '##################################################'); // Counsumer Secret Apps Twitter
 
-$i = 0;
-$reject = false;
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $get_bot = mysqli_query($connect_db, "SELECT * FROM twitter_access_tokens ORDER BY RAND() LIMIT " . $_POST['jumlah'] . "");
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  $get_bot = mysqli_query($connect_db, "SELECT * FROM $db_tabel ORDER BY RAND() LIMIT " . $_POST['jumlah'] . "");
 
   if ($_POST['jumlah'] > mysqli_num_rows($get_bot)) {
-    $msg = "Jumlah melebihi batas!";
-    $reject = true;
-  }
+    $msg = 'Jumlah melebihi batas!';
+  } else {
+    $i = 0;
 
-  if ($reject != true) {
     foreach ($get_bot as $key => $bot) {
       $connect_bot = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $bot['oauth_token'], $bot['oauth_token_secret']);
+      $connect_bot->get('account/verify_credentials');
+      if ($connection->getLastHttpCode() == 200) {
+        // Auto Follow
+        if (isset($_POST['follow']) && $_POST['follow'] == 'tambah') {
+          $connect_bot->post('friendships/create', ['screen_name' => $_POST['username']]);
+        } else if (isset($_POST['follow']) && $_POST['follow'] == 'kurang') {
+          $connect_bot->post('friendships/destroy', ['screen_name' => $_POST['username']]);
+        }
 
-      if (isset($_POST['follow']) && $_POST['follow'] == 'tambah') {
-        $connect_bot->post('friendships/create', ['screen_name' => $_POST['username']]);
-      } else if (isset($_POST['follow']) && $_POST['follow'] == 'kurang') {
-        $connect_bot->post('friendships/destroy', ['screen_name' => $_POST['username']]);
-      }
+        // Auto Retweet
+        if (isset($_POST['retweet']) && $_POST['retweet'] == 'tambah') {
+          $connect_bot->post('statuses/retweet', ['id' => $_POST['id']]);
+        } else if (isset($_POST['retweet']) && $_POST['retweet'] == 'kurang') {
+          $connect_bot->post('statuses/unretweet', ['id' => $_POST['id']]);
+        }
 
-      if (isset($_POST['retweet']) && $_POST['retweet'] == 'tambah') {
-        $connect_bot->post('statuses/retweet', ['id' => $_POST['id']]);
-      } else if (isset($_POST['retweet']) && $_POST['retweet'] == 'kurang') {
-        $connect_bot->post('statuses/unretweet', ['id' => $_POST['id']]);
-      }
+        // Auto Like
+        if (isset($_POST['favorite']) && $_POST['favorite'] == 'tambah') {
+          $connect_bot->post('favorites/create', ['id' => $_POST['id']]);
+        } else if (isset($_POST['favorite']) && $_POST['favorite'] == 'kurang') {
+          $connect_bot->post('favorites/destroy', ['id' => $_POST['id']]);
+        }
 
-      if (isset($_POST['favorite']) && $_POST['favorite'] == 'tambah') {
-        $connect_bot->post('favorites/create', ['id' => $_POST['id']]);
-      } else if (isset($_POST['favorite']) && $_POST['favorite'] == 'kurang') {
-        $connect_bot->post('favorites/destroy', ['id' => $_POST['id']]);
-      }
+        if ($connect_bot->getLastHttpCode() == 200) {
+          $i++;
+        }
 
-      if ($connect_bot->getLastHttpCode() == 200) {
-        $i++;
-      }
-
-      if ($i > 0) {
-        $msg = "Successfully action $i users";
+        if ($i > 0) {
+          $msg = "Successfully action $i users";
+        }
       }
     }
   }

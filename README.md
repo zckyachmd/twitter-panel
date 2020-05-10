@@ -38,6 +38,10 @@
 </p>
 
 ---
+## How to Use
+1. Download latest version source code.
+2. Get Consumer Key & Secret on [apps.twitter.com](https://apps.twitter.com)
+3. Setting Database & Apps connection in index.php
 
 ## Built Using
 - [PHP](https://www.php.net/) - Server Environment
