@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     foreach ($get_bot as $key => $bot) {
       $connect_bot = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $bot['oauth_token'], $bot['oauth_token_secret']);
       $connect_bot->get('account/verify_credentials');
-      if ($connection->getLastHttpCode() == 200) {
+      if ($connect_bot->getLastHttpCode() == 200) {
         // Auto Follow
         if (isset($_POST['follow']) && $_POST['follow'] == 'tambah') {
           $connect_bot->post('friendships/create', ['screen_name' => $_POST['username']]);
