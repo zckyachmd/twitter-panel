@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zckyachmd/twitter-panel/master/assets/img/twitter-logo.png" width="256px" height="256px" alt="Twitter Logo">
+  <a href="https://github.com/zckyachmd/twitter-panel">
+    <img src="https://raw.githubusercontent.com/zckyachmd/twitter-panel/master/assets/img/twitter-logo.png" width="256px" height="256px" alt="Twitter Logo">
+  </a>
 </p>
 
 <h3 align="center">Twitter SMM | <i>Simple Twitter Panel</i></h3>
@@ -59,7 +61,7 @@
 
 ## Download
 - Pre-Release
-  - [Twitter Panel 1.0](https://github.com/zckyachmd/twitter-panel/releases) - latest version
+  - [Twitter Panel 1.0](https://github.com/zckyachmd/twitter-panel/releases/download/1.0/twitter-panel.zip) - latest version
 
 ## Bug Report <a name = "bugs"></a>
 If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new/choose). Thank you
