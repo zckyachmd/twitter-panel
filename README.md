@@ -60,7 +60,6 @@
 - [ ] Mass Report
 
 ## Download
-- Pre-Release
   - [Twitter Panel 1.0](https://github.com/zckyachmd/twitter-panel/releases/download/1.0/twitter-panel.zip) - latest version
 
 ## Bug Report <a name = "bugs"></a>
