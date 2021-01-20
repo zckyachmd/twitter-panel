@@ -40,32 +40,38 @@
 </p>
 
 ---
+
 ## How to Use
+
 1. Download latest version source code
 2. Get Consumer Key & Secret on [apps.twitter.com](https://apps.twitter.com)
-3. Configuration Database & Apps connection in index.php
-4. Input IDs to database, Ready to use!
+3. Configuration Database, Config & Var Constants
+4. Ready to use!
 
 ## Built Using
-- [PHP](https://www.php.net/) - Server Environment
-- [MySQL](https://www.mysql.com/) - Database
-- [TwitterOAuth](https://twitteroauth.com/) - Twitter API
+
 - [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
+- [Codeigniter 3](https://codeigniter.com/) - PHP Framework
+- [TwitterOAuth](https://twitteroauth.com/) - Twitter API Framework
+- [MySQL](https://www.mysql.com/) - Database
 
 ## Feature <a name = "feature"></a>
-- [X] Auto Follow
-- [X] Auto Retweet
-- [X] Auto Like
-- [ ] Boom Tweet
-- [ ] Mass Report
+
+- [x] Auto Follow
+- [x] Auto Retweet
+- [x] Auto Like
 
 ## Download
-  - [Twitter Panel 1.0](https://github.com/zckyachmd/twitter-panel/releases/download/1.0/twitter-panel.zip) - latest version
+
+- [Twitter Panel 2.0](https://github.com/zckyachmd/twitter-panel/releases/download/2.0/twitter-panel.zip) - latest version
+- [Twitter Panel 1.0](https://github.com/zckyachmd/twitter-panel/releases/download/1.0/twitter-panel.zip) - April 26, 2020
 
 ## Bug Report <a name = "bugs"></a>
+
 If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new/choose). Thank you
 
 ## License <a name = "license"></a>
+
 The MIT License (MIT)
 
 Copyright © 2020 [@zckyachmd](https://github.com/zckyachmd)
