@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/zckyachmd/twitter-panel">
-    <img src="https://raw.githubusercontent.com/zckyachmd/twitter-panel/master/assets/img/twitter-logo.png" width="256px" height="256px" alt="Twitter Logo">
+    <img src="https://raw.githubusercontent.com/zckyachmd/twitter-autoreply/main/assets/img/twitter-logo.png" width="256px" height="256px" alt="Twitter Logo">
   </a>
 </p>
 
@@ -45,8 +45,9 @@
 
 1. Download latest version source code
 2. Get Consumer Key & Secret on [apps.twitter.com](https://apps.twitter.com)
-3. Configuration Database, Config & Var Constants
-4. Ready to use!
+3. Set Callback on Apps Twitter to => 'http://domain.com/auth/callback'
+4. Configuration Database, Config & Var Constants
+5. Ready to use!
 
 ## Built Using
 
