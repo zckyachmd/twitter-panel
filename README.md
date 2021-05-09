@@ -60,6 +60,7 @@
 - [x] Auto Follow
 - [x] Auto Retweet
 - [x] Auto Like
+- [x] Mass Report
 
 ## Download
 

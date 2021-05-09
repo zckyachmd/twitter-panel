@@ -84,5 +84,6 @@ defined('EXIT_DATABASE')       or define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      or define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      or define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-define('CONSUMER_KEY', '#####################################################'); // Api Key Twitter
-define('CONSUMER_SECRET', '##################################################'); // API Key Secret Twitter
+define('URL', 'http://127.0.0.1/twitter-panel'); // URL Site
+define('CONSUMER_KEY', '######################'); // Api Key Twitter
+define('CONSUMER_SECRET', '###################'); // API Key Secret Twitter
