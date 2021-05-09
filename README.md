@@ -47,7 +47,7 @@
 2. Get Consumer Key & Secret on [apps.twitter.com](https://apps.twitter.com)
 3. Set Callback on Apps Twitter to => 'http://domain.com/auth/callback'
 4. Open file 'application/config/constants.php'
-5. Edit URL, Twitter API & DATABASE on constants.php
+5. Edit URL, Twitter API & Database on constants.php
 6. Import Database
 7. Ready to use!
 
