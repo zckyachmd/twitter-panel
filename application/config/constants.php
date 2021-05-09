@@ -85,5 +85,17 @@ defined('EXIT__AUTO_MIN')      or define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      or define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 define('URL', 'http://127.0.0.1/twitter-panel'); // URL Site
-define('CONSUMER_KEY', '######################'); // Api Key Twitter
-define('CONSUMER_SECRET', '###################'); // API Key Secret Twitter
+
+#--------------------------------------------------------------------
+# Twitter API
+#--------------------------------------------------------------------
+define('CONSUMER_KEY', '######################');
+define('CONSUMER_SECRET', '###################');
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+define('DB_HOST', 'localhost'); // Server
+define('DB_USER', 'root');  // Username
+define('DB_PASS', ''); // Password
+define('DB_NAME', 'twitter-panel'); // Name

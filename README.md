@@ -46,14 +46,16 @@
 1. Download latest version source code
 2. Get Consumer Key & Secret on [apps.twitter.com](https://apps.twitter.com)
 3. Set Callback on Apps Twitter to => 'http://domain.com/auth/callback'
-4. Configuration Database, Config & Var Constants
-5. Ready to use!
+4. Open file 'application/config/constants.php'
+5. Edit URL, Twitter API & DATABASE on constants.php
+6. Import Database
+7. Ready to use!
 
 ## Built Using
 
 - [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
 - [Codeigniter 3](https://codeigniter.com/) - PHP Framework
-- [TwitterOAuth](https://twitteroauth.com/) - Twitter API Framework
+- [TwitterOAuth](https://twitteroauth.com/) - Twitter API Libs
 - [MySQL](https://www.mysql.com/) - Database
 
 ## Feature <a name = "feature"></a>
@@ -65,7 +67,8 @@
 
 ## Download
 
-- [Twitter Panel 2.0](https://github.com/zckyachmd/twitter-panel/releases/download/2.0/twitter-panel.zip) - latest version
+- [Twitter Panel 2.1](https://github.com/zckyachmd/twitter-panel/releases/download/2.1/twitter-panel.zip) - May 10, 2021
+- [Twitter Panel 2.0](https://github.com/zckyachmd/twitter-panel/releases/download/2.0/twitter-panel.zip) - January 10, 2021
 - [Twitter Panel 1.0](https://github.com/zckyachmd/twitter-panel/releases/download/1.0/twitter-panel.zip) - April 26, 2020
 
 ## Bug Report <a name = "bugs"></a>
@@ -76,4 +79,4 @@ If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twit
 
 The MIT License (MIT)
 
-Copyright © 2020 [@zckyachmd](https://github.com/zckyachmd)
+Copyright © 2021 [@zckyachmd](https://github.com/zckyachmd)
