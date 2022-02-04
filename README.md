@@ -48,7 +48,7 @@
 3. Set Callback on Apps Twitter to => 'http://domain.com/auth/callback'
 4. Open file 'application/config/constants.php'
 5. Edit URL, Twitter API & Database on constants.php
-6. Import Database to PHPMYADMIN
+6. Import Database to phpMyAdmin
 7. Ready to use!
 
 ## Built Using
