@@ -48,8 +48,8 @@ class ComposerStaticInit671f6b8b746ada2081ca2135fd6ccf82
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'Webmozart\\Assert\\' => 
         array (

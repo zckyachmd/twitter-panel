@@ -63,7 +63,8 @@
 - [x] Auto Follow
 - [x] Auto Retweet
 - [x] Auto Like
-- [x] Mass Report
+- [x] Auto Report
+- [x] Auto Reply & Quotes Reply
 
 ## Download
 

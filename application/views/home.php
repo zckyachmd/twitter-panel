@@ -46,7 +46,7 @@
 		<?php endif; ?>
 		<div class="row justify-content-center mb-4">
 			<div class="col-md-5 mx-4">
-				<div class="card">
+				<div class="card bg-dark text-light">
 					<div class="card-header">
 						<i class="fa fa-users" aria-hidden="true"></i> Follow
 					</div>
@@ -77,7 +77,7 @@
 							echo form_dropdown('follow', $options, '', ['class' => 'form-control', 'required' => true]);
 							?>
 						</div>
-						<?= form_submit('submit', 'Submit', ['class' => 'btn btn-dark']); ?>
+						<?= form_submit('submit', 'Submit', ['class' => 'btn btn-light']); ?>
 						<?= form_close(); ?>
 					</div>
 				</div>
@@ -107,8 +107,7 @@
 							<?php
 							$options = [
 								''        => 'Choose an action',
-								'add'     => 'Added Report',
-								// 'reduce'  => 'Reduce Report'
+								'add'     => 'Spam Report'
 							];
 
 							echo form_dropdown('report', $options, '', ['class' => 'form-control', 'required' => true]);
@@ -122,7 +121,7 @@
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-5 mx-4 mb-5">
-				<div class="card bg-dark text-light">
+				<div class="card">
 					<div class="card-header">
 						<i class="fa fa-retweet" aria-hidden="true"></i> Retweet
 					</div>
@@ -150,7 +149,7 @@
 							echo form_dropdown('retweet', $options, '', ['class' => 'form-control', 'required' => true]);
 							?>
 						</div>
-						<?= form_submit('submit', 'Submit', ['class' => 'btn btn-light']); ?>
+						<?= form_submit('submit', 'Submit', ['class' => 'btn btn-dark']); ?>
 						<?= form_close(); ?>
 					</div>
 				</div>
@@ -190,10 +189,42 @@
 				</div>
 			</div>
 		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-11 mb-5">
+				<div class="card bg-dark text-light">
+					<div class="card-header">
+						<i class="fa fa-reply" aria-hidden="true"></i> Reply
+					</div>
+					<div class="card-body">
+						<?= form_open(base_url('home/reply'), "method='post'"); ?>
+						<div class="form-group">
+							<label for="id">ID Tweet</label>
+							<div class="input-group">
+								<?= form_input(['class' => 'form-control', 'type' => 'text', 'name' => 'id', 'id' => 'id', 'placeholder' => '1351107657210462208', 'required' => true]); ?>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="total">Total</label>
+							<?= form_input(['class' => 'form-control', 'type' => 'number', 'name' => 'total', 'id' => 'total', 'placeholder' => '100', 'required' => true]); ?>
+						</div>
+						<div class="form-group">
+							<label for="reply">Reply</label>
+							<?= form_textarea(['class' => 'form-control', 'name' => 'reply', 'id' => 'reply', 'rows' => 5, 'placeholder' => "Reply 1\nReply 2\nReply 3", 'required' => true]); ?>
+						</div>
+						<div class="form-group">
+							<?= form_checkbox('quotes', '1', FALSE, ['id' => 'quotes']); ?>
+							<label for="quotes"> Quotes Reply</label>
+						</div>
+						<?= form_submit('submit', 'Submit', ['class' => 'btn btn-light']); ?>
+						<?= form_close(); ?>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<footer class="footer fixed-bottom bg-dark">
 		<div class="container text-center">
-			<span class="text-white">Copyright 2020 <i class="far fa-copyright"></i> Made with <i class="fas fa-heart"></i> by <a href=" https://www.zacky.id" target="_blank" class="text-decoration-none text-white">Zacky Achmad</a></span>
+			<span class="text-white">Copyright <?= date('Y'); ?> <i class="far fa-copyright"></i> Made with <i class="fas fa-heart"></i> by <a href=" https://www.zacky.id" target="_blank" class="text-decoration-none text-white">Zacky Achmad</a></span>
 		</div>
 	</footer>
 

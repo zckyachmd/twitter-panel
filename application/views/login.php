@@ -28,7 +28,7 @@
 			</div>
 		<?php endif; ?>
 		<a href="<?= base_url('auth/connect'); ?>" class="btn btn-md btn-dark btn-block">Sign in</a>
-		<p class="mt-5 mb-3 text-muted">Copyright 2020 <i class="far fa-copyright"></i> Zacky Achmad</p>
+		<p class="mt-5 mb-3 text-muted">Copyright <?= date('Y'); ?> <i class="far fa-copyright"></i> Zacky Achmad</p>
 	</div>
 
 	<script src="<?= base_url('assets/libs/jquery/jquery.min.js'); ?>"></script>
