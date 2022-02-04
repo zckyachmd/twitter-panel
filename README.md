@@ -58,7 +58,7 @@
 - [TwitterOAuth](https://twitteroauth.com/) - Twitter API Libs
 - [MySQL](https://www.mysql.com/) - Database
 
-## Feature <a name = "feature"></a>
+## Feature
 
 - [x] Auto Follow
 - [x] Auto Retweet
@@ -73,11 +73,15 @@
 - [Twitter Panel 2.0](https://github.com/zckyachmd/twitter-panel/releases/download/2.0/twitter-panel.zip) - January 10, 2021
 - [Twitter Panel 1.0](https://github.com/zckyachmd/twitter-panel/releases/download/1.0/twitter-panel.zip) - April 26, 2020
 
-## Bug Report <a name = "bugs"></a>
+## Donation
 
-If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new/choose). Thank you
+Want to buy me a cup of coffee? [saweria.co/zckyachmd](https://saweria.co/zckyachmd). Thank you
 
-## License <a name = "license"></a>
+## Bug Report
+
+If you find a bug, kindly open an issue [here](https://github.com/zckyachmd/twitter-panel/issues/new/choose)
+
+## License
 
 The MIT License (MIT)
 
