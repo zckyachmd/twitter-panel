@@ -44,17 +44,17 @@
 ## How to Use
 
 1. Download latest version source code
-2. Get Consumer Key & Secret on [apps.twitter.com](https://apps.twitter.com)
+2. Get Consumer Key & Secret on [Twitter Developer Portal](https://developer.twitter.com/)
 3. Set Callback on Apps Twitter to => 'http://domain.com/auth/callback'
 4. Open file 'application/config/constants.php'
 5. Edit URL, Twitter API & Database on constants.php
-6. Import Database
+6. Import Database to PHPMYADMIN
 7. Ready to use!
 
 ## Built Using
 
-- [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
-- [Codeigniter 3](https://codeigniter.com/) - PHP Framework
+- [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - CSS Framework
+- [Codeigniter 3](https://codeigniter.com/userguide3/) - PHP Framework
 - [TwitterOAuth](https://twitteroauth.com/) - Twitter API Libs
 - [MySQL](https://www.mysql.com/) - Database
 
