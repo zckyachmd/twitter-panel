@@ -11,7 +11,11 @@ class Auth extends CI_Controller
 		if ($this->session->userdata('user_data')) {
 			redirect(base_url('auth'));
 		} else {
-			$this->load->view('login');
+			$data = [
+				'title' => 'Login',
+			];
+
+			$this->load->view('login', $data);
 		}
 	}
 

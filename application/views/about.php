@@ -22,14 +22,15 @@
 			<div class="col-md-11 mb-5">
 				<div class="card bg-dark text-light">
 					<div class="card-header">
-						<i class="fa fa-users" aria-hidden="true"></i> Users <span class="badge badge-light"><?= count($users); ?></span>
+						<i class="fas fa-info-circle"></i> About
 					</div>
-					<div class="card-body text-center">
-						<?php for ($i = 0; $i < count($users); $i++) : ?>
-							<a href="http://twitter.com/<?= $users[$i]['username']; ?>" target="_blank">
-								<img src="<?= $users[$i]['avatar']; ?>" class="rounded-circle" width="75px" title="Twitter: @<?= $users[$i]['username']; ?>">
-							</a>
-						<?php endfor; ?>
+					<div class="card-body">
+						<p class="text-justify">Twitter Panel | Merupakan aplikasi yang dibuat untuk memudahkan pengguna dalam mengotomasi akun Twitter, secara sederhana merupakan aplikasi Social Media Marketing. Dibuat dengan menggunakan PHP, Codeigniter, Bootstrap, dan Fontawesome.</p>
+						</p>
+						<p class="text-justify">Proyek ini dibangun oleh Bagaskara Achmad Zaky (7708180096) | Prodi Teknologi Rekayasa Multimedia Fakultas Ilmu Terapan - Telkom University secara <b>Open Source</b> yang dapat dikembangkan secara bersama melalui <a href="http://github.com/zckyachmd/twitter-panel" class="text-decoration-none" target="_blank">github.com/zckyachmd/twitter-panel</a>.
+						<h5 class="text-center">
+							<a href="https://saweria.co/zckyachmd" class="badge badge-warning text-" target="_blank"><i class="fas fa-hand-holding-usd"></i> Donate</a>
+						</h5>
 					</div>
 				</div>
 			</div>

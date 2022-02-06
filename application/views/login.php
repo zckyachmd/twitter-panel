@@ -4,9 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-	<title>Login - Twitter Panel</title>
+	<title><?= $title; ?> - Twitter Panel</title>
 
 	<link rel="shortcut icon" href="<?= base_url('assets/img/twitter-logo.png'); ?>" type="image/x-icon">
 
@@ -17,18 +16,15 @@
 
 <body class="text-center">
 	<div class="form-signin">
-		<img class="mb-3" src="assets/img/twitter-logo.png" alt="" width="72" height="72">
+		<img class="mb-3" src="<?= base_url('assets/img/twitter-logo.png'); ?>" alt="" width="72" height="72">
 		<h1 class="h3 mb-5 font-weight-normal">Twitter Panel</h1>
-		<?php if ($this->session->flashdata('error')) : ?>
-			<div class="alert alert-danger alert-dismissible fade show" role="alert">
-				<?= $this->session->flashdata('error'); ?>
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-		<?php endif; ?>
-		<a href="<?= base_url('auth/connect'); ?>" class="btn btn-md btn-dark btn-block">Sign in</a>
-		<p class="mt-5 mb-3 text-muted">Copyright <?= date('Y'); ?> <i class="far fa-copyright"></i> Zacky Achmad</p>
+		<?php $this->load->view('layouts/_alert'); ?>
+		<a href="<?= base_url('auth/connect'); ?>" class="btn btn-md btn-dark btn-block">Sign in With Twitter</a>
+		<p class="mt-5 mb-3">
+			<span class="text-muted">
+				Copyright <?= date('Y'); ?> <i class="far fa-copyright"></i> <a href="https://www.zacky.id" class="text-decoration-none">Zacky Achmad</a>
+			</span>
+		</p>
 	</div>
 
 	<script src="<?= base_url('assets/libs/jquery/jquery.min.js'); ?>"></script>
