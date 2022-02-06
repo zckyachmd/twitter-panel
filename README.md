@@ -54,6 +54,8 @@
 ## Built Using
 
 - [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - CSS Framework
+- [Fontawesome](https://fontawesome.com/) - Icons Libs
+- [Datatables](https://datatables.net/) - Tables Libs
 - [Codeigniter 3](https://codeigniter.com/userguide3/) - PHP Framework
 - [TwitterOAuth](https://twitteroauth.com/) - Twitter API Libs
 - [MySQL](https://www.mysql.com/) - Database
