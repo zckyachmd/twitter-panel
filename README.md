@@ -68,6 +68,7 @@
 
 ## Download
 
+- [Twitter Panel 2.3](https://github.com/zckyachmd/twitter-panel/releases/download/2.3/twitter-panel.zip) - Feb 6, 2022
 - [Twitter Panel 2.2](https://github.com/zckyachmd/twitter-panel/releases/download/2.2/twitter-panel.zip) - Feb 4, 2022
 - [Twitter Panel 2.1](https://github.com/zckyachmd/twitter-panel/releases/download/2.1/twitter-panel.zip) - May 10, 2021
 - [Twitter Panel 2.0](https://github.com/zckyachmd/twitter-panel/releases/download/2.0/twitter-panel.zip) - January 10, 2021
