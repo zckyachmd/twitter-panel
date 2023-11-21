@@ -89,8 +89,8 @@ define('URL', 'http://127.0.0.1/twitter-panel'); // URL Site
 #--------------------------------------------------------------------
 # Twitter API
 #--------------------------------------------------------------------
-define('CONSUMER_KEY', 'eezSUnANyRm9yquFUGhD0O2aQ');
-define('CONSUMER_SECRET', 'tLPdk7v13KQbCvpezm6TCRTDYqnd3JYZfx3JLBVQ0L4Rb0qFjb');
+define('CONSUMER_KEY', '');	// Consumer Key (API Key)
+define('CONSUMER_SECRET', ''); // Consumer Secret (API Secret)
 
 #--------------------------------------------------------------------
 # DATABASE
